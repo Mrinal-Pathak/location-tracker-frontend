@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+
+.message {
+    color: white;
+    text-align: center;
+
+}
+
+#iconcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin: 1rem;
+}
+
+.icons {
+    padding: 0;
+    margin: 1rem;
+}
+
+.footerSvg:hover {
+    filter: drop-shadow(1px 1px 10px rgb(240, 237, 237));
+}
+
+.footerSvg {
+    height: 50px;
+    width: auto;
+
+}
+
+#contact {
+    font-size: 2rem;
+    color: white;
+}
