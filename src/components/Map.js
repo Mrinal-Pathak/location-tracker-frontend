@@ -20,7 +20,7 @@ const Map = (props) => {
             console.log(marker)
 
         return () => map.remove(); // Clean up the map when the component unmounts
-    }, [mapKey,props.longitude,props.latitude]);
+    }, [props.longitude,props.latitude]);
 
     return <div ref={mapElement} style={{ width: '100%', height: '400px' }}></div>;
 };

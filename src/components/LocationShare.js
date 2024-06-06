@@ -122,7 +122,7 @@ const LocationShare = (props) => {
           }
     
           // Parse the JSON response
-          const data = await response.json();
+          // const data = await response.json();
     
           // console.log(data)
         } catch (error) {
@@ -134,7 +134,7 @@ const LocationShare = (props) => {
     }, 1000);
     return () => {
       clearInterval(sendLocation);
-    }  },[isSendingLocation,code]);
+    }  },[isSendingLocation,code,props.serverUrl]);
 
 
   return (
