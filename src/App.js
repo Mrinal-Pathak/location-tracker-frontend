@@ -4,7 +4,7 @@ import GettingLocation from './components/GettingLocation';
 import LocationShare from './components/LocationShare';
 import { useState, useEffect } from 'react';
 
-const serverUrl = "https://8e24-2409-40e5-1052-d043-3070-3556-138a-a96b.ngrok-free.app";
+const serverUrl = "https://location-tracker-backend-1yjo.onrender.com";
 
 function App() {
   const [ipAddress, setIPAddress] = useState('');
