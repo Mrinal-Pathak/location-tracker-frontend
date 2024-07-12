@@ -4,7 +4,7 @@ import GettingLocation from './components/GettingLocation';
 import LocationShare from './components/LocationShare';
 import { useState, useEffect } from 'react';
 
-const serverUrl = "https://3d90-2409-40e4-65-7725-1485-b557-52dd-9438.ngrok-free.app";
+const serverUrl = "https://8e24-2409-40e5-1052-d043-3070-3556-138a-a96b.ngrok-free.app";
 
 function App() {
   const [ipAddress, setIPAddress] = useState('');
@@ -72,7 +72,7 @@ function App() {
           margin:"10px",
           textAlign:"center",
           color:"red"
-        }}>Warning: Server is Down!</h3>
+        }}>Warning: Server is Down! Please contact with me so that i can start the server...</h3>
       )}
       <div style={{
         display: "flex",
